@@ -4,9 +4,13 @@ This is a [TypeScript / Node.js](https://github.com/microsoft/TypeScript-Node-St
 
 ## Next Steps
 
-Click the button below to start a new development environment:
+Click the button below to start a new development environment: (gitpod-io/template-typescript-node)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-typescript-node)
+
+** Updated Open in Gitpod button (a13dd1236/template-typescript-node00)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/a13dd1236/template-typescript-node00.git)
 
 ## Get Started With Your Own Project
 
