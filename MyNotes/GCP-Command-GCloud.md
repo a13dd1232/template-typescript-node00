@@ -35,3 +35,11 @@ gcloud cloud-shell get-mount-command /workspace/template-typescript-node00/gclou
 
 /workspace/template-typescript-node00/gcloud
 
+
+/workspace/template-typescript-node00/gcloud/CloudShell
+
+/home/student_01_fa76baf72943
+
+gcloud alpha cloud-shell get-mount-command /workspace/template-typescript-node00/gcloud/CloudShell
+
+
