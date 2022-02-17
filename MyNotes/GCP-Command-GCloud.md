@@ -22,7 +22,50 @@ gcloud cloud-shell ssh
 
 ### Copy a file, data.txt, from Cloud Shell to your local machine:
 
+*** Must***
+gcloud cloud-shell ssh
+*** Must***
+
+
+
 gcloud cloud-shell scp cloudshell:\/data.txt localhost:\data.txt
+
+echo "# Test File" >> TestFile.md
+
+gcloud cloud-shell scp localhost:\TestFile.md cloudshell:\/TestFile.md
+
+gcloud cloud-shell scp localhost:\/workspace/template-typescript-node00/gcloud/TestFile.md cloudshell:\/TestFile.md 
+
+gcloud cloud-shell scp localhost:\/ cloudshell:\ 
+gcloud cloud-shell scp localhost:\/workspace/template-typescript-node00/gcloud/CloudShell/Test.md cloudshell:\/home/student_01_bcd38ba2aaa9/Test.md
+/workspace/template-typescript-node00/gcloud/CloudShell/Test.md
+/home/student_01_bcd38ba2aaa9/Test.md
+
+
+## local Machine - insta : Transfer files using the Google Cloud CLI
+
+*** Must***
+gcloud compute ssh --zone "us-central1-f" "gcelab"  --project "qwiklabs-gcp-04-461a4ecff612"
+gcloud compute ssh "gcelab"
+sudo chown -R $USER /var/www
+
+*** Must***
+
+
+gcloud compute scp LOCAL_FILE_PATH VM_NAME:~
+
+gcelab:
+
+/var/www/html
+
+/workspace/template-typescript-node00/gcloud/html
+
+/var/www/
+
+gcloud compute scp LOCAL_FILE_PATH VM_NAME:~
+
+gcloud compute scp --recurse /workspace/template-typescript-node00/gcloud/html root@gcelab:/var/www/
+
 
 ### mount Cloud Shell home directory onto local file system:
 
