@@ -12,6 +12,10 @@ Click the button below to start a new development environment: (gitpod-io/templa
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/a13dd1236/template-typescript-node00.git)
 
+** Updated Open in Gitpod button (a13dd1232/template-typescript-node00)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/a13dd1232/template-typescript-node00.git)
+
 ## Get Started With Your Own Project
 
 ### A new project
